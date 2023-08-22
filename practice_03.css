@@ -1,0 +1,120 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+} */
+.border_01 {
+    padding: 10px;
+    margin: 10px;
+    height: 100px;
+    width: 400px;
+    background-color: aqua;
+}
+.border_02 {
+    border-width: 2px;
+    background-color: aqua;
+    border-color: black;
+    border-style: dashed;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    text-align: center;
+}
+.border_03 {
+    border: 3px solid black;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    text-align: center;
+}
+.border_04 {
+    border-radius: 50%; 
+    /* for circle */
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+/* .text1 {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.border_05 {
+    width: 500px;
+    height: 100px;
+    background-color: aqua;  
+}
+.practice_question{
+    height: 100px;
+    background-color: green;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.practice_01 {
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+    width: 100px;
+    height: max-content;
+}
+.practice_02 {
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.practice_03 {
+    margin: 10px;
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.practice_04 {
+    margin: 10px;
+    padding: 10px;
+    background-color:green;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+} */
+
+.nav_01{
+    background-color: #2d3333;
+    text-align: center;
+    padding: 10px;
+}
+.nav_02 {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 200;
+    color: rgb(198, 198, 217);
+}
+.home{
+    color: rgb(191, 56, 56);
+}
+.submit {
+    background-color: #f08804;
+    color: white;
+    border: #f08804;
+    padding: 5px;
+}
+#search {
+    padding: 5px;
+}

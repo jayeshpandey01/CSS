@@ -1,0 +1,84 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+/* body {
+    text-align: center;
+} */
+
+/* div {
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+} */
+#contaner {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    /* flexbox direction */
+    flex-direction: row;
+    /* defulat given raw are given */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-center;*/
+} 
+.box1 {
+    background-color: aqua;
+    
+}
+.box2 {
+    background-color: blue;
+    /* height: 200px; */
+}
+.box3 {
+    background-color: pink;
+    /* height: 50px; */
+}
+.box4 {
+    background-color: brown;
+    /* width: 200px; */
+    align-self: center;
+    flex-shrink: 0;
+    
+}
+.box5 {
+    background-color: yellowgreen;
+    /* width: 50px; */
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+li {
+    list-style-type: none;
+}
+
+.outer {
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+/* prioty are align-item < align-self */

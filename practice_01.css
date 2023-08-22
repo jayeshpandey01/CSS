@@ -1,0 +1,75 @@
+/* preferance of css is that (inline css > style tag css > externla css) */
+h1{
+    color: blue; /* color use to give a foregroun color on the selector */
+    /* external css */
+}
+/* on the following lines h1 is the selector; color are the property and red are the value of the property */
+
+button { 
+    color: blue;
+    background-color: yellow;
+}
+/* body {
+    background-color: rgb(00, 255, 00);/* rgb ==> red green blue; mixing of the folllowing show thw result*/
+    /* by giving the value of the rgb color then show the diffent shade of the color */
+} */
+
+/* body {
+    /* Hex(Hexadecimal) */
+    /* A  B  C  D  E  F */
+    /*10 20 30 40 50 60 */
+    color: #ff0000;
+    /* ff 00 00 */
+    /* R  G  B*/
+    
+} */
+
+/* universal selector 
+*{} ==> asteris
+
+*/
+*{
+    color: black;
+}
+body{
+    background-color: black;
+}
+/* h1 {
+    color: black;
+    background-color: blue;
+
+} */
+
+#heading1{
+    color: yellow;
+    background-color: blue;
+}
+#heading2 {
+    color: aqua;
+    background-color: yellowgreen;
+}
+
+/* class start with 
+.{}
+ */
+.name {
+    color: blueviolet;
+    background-color: chartreuse;
+}
+
+/* practice question */
+
+#box {
+    background-color: blue;
+    color: yellow;
+}
+
+.heading {
+    color: rgb(189, 160, 160);
+    background-color: black;
+}
+.button1{
+    color: rgb(189, 160, 160);
+    background-color: black;
+    
+}

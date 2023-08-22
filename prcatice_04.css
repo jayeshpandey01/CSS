@@ -1,0 +1,71 @@
+/* div {
+    background-color: aqua; */
+    /* display: inline; */
+    /* whitout inline div get extra space  */
+/* } */
+/* button { */
+    /* display: block; */
+    /* whitout display block it get that much space that requre for storing the value */
+
+/* } */
+/* .box {
+    height: 100px;
+    background-color: blue;
+    color: yellow;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+
+} */
+/* div {
+    display: inline-block;
+} */
+.box2 {
+    /* display: none; */
+    /* by using display none removed a box */
+    visibility: hidden;
+    /* When visiblity is set to none, space fot the elemnt is reserved But for display set none, no spcae is reserved or blocked for the element. */
+}
+
+/* alpha channel */
+.box4 {
+    background-color: rgba(139, 41, 41, 0.286);
+    padding: 25px;
+}
+.content_1 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(115, 140, 161);
+    margin: 10px;
+    display: inline-block;
+    border:2px solid #2d3333;
+}
+.nav_01{
+    background-color: #2d3333;
+    text-align: center;
+    padding: 10px;
+}
+.nav_02 {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 200;
+    color: rgb(198, 198, 217);
+}
+.home{
+    color: rgb(191, 56, 56);
+}
+.submit {
+    background-color: #f08804;
+    color: white;
+    border: #f08804;
+    padding: 5px;
+}
+#search {
+    padding: 5px;
+}
